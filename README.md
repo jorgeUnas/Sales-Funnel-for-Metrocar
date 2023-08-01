@@ -96,4 +96,12 @@ When it comes to the platforms and age ranges (Figure 7), I observed a similar b
 
 ## Annexes
 The bar plot was obtained from the following query:
+``` sql
+
+SELECT EXTRACT(HOUR FROM request_ts) AS ride_request_hour,
+			 COUNT(*) AS number_rides
+FROM ride_requests
+GROUP BY 1
+ORDER BY 1;
+``` 
 
