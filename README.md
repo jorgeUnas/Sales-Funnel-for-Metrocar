@@ -20,13 +20,21 @@ My strategy to address the company's request was to reduce the amount of data by
 The user funnel includes the following stages:
 
 **`Downloads`**: The count of app downloads from the App Store or Google Play Store.
+
 **`Sign-up`**: The number of accounts created on the app (assuming each account belongs to a unique user). Ride Request: The number of users who open the app to request a ride.
+
 **`Ride Completed`**: The number of users who get in the car and ride to their destination.
+
 **`Review`**: The number of users who leave a review to share their ride experience.
+
 Additionally, I have established a ride funnel using the number of rides in the following stages:
+
 **`Ride Request`**: The number of rides requested.
+
 **`Driver Acceptance`**: The number of rides accepted by the drivers.
+
 **`Ride Completed`**: The number of rides where users get in the car and reach their destinations. Payment: The number of rides with an approved payment status.
+
 **`Review`**: The number of rides reviewed.
 
 ## Results
