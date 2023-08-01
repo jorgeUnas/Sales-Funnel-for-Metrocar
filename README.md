@@ -62,7 +62,7 @@ On the other hand, the drop-off between ride request and ride completed represen
 According to the treemap (FIgure 4), most of Metrocar's users use iOS devices to install the app, and the majority of them are between 35 and 44 years old. This age range is also the most common among users on other platforms. This behavior is expected because these individuals use ride apps more frequently for commuting to their workplaces compared to younger people (18-24 years old), and they rely more on technology than previous generations (people in the 45-54 age range).
 
 <p align= "center">
-<img src="https://github.com/jorgeUnas/Sales-Funnel-for-Metrocar/blob/main/users%20by%20platform%20and%20age.png" height="400"> 
+<img src="https://github.com/jorgeUnas/Sales-Funnel-for-Metrocar/blob/main/users%20by%20platform%20and%20age.png" height="200"> 
 </p>
 Figure 4.
 
@@ -84,7 +84,7 @@ models could address this goal in a more dynamic way, but this is a good startin
 When it comes to the platforms and age ranges (Figure 7), I observed a similar behavior in the number of rides compared to the behavior in the number of users in Figure 4. Most of the rides are requested on iOS devices by users between 35 and 44 years old. Consequently, they are our target group, and I recommend keeping them engaged with excellent customer service and creating engaging content such as promotions or ride suggestions. This recommendation can be extended to users between 25 and 34 years old because this is the next group with the highest number of rides, and we could stimulate this group to use our app more frequently, thereby increasing our revenue as a result.
 
 <p align= "center">
-<img src="https://github.com/jorgeUnas/Sales-Funnel-for-Metrocar/blob/main/Rides%20by%20platform%20and%20age.png" height="400"> 
+<img src="https://github.com/jorgeUnas/Sales-Funnel-for-Metrocar/blob/main/Rides%20by%20platform%20and%20age.png" height="200"> 
 </p>
 
 ## Recommendations
