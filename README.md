@@ -19,7 +19,7 @@ The data collected is condensed in the ERD of Figure 1. There are no missing val
 <p align= "center">
 <img src="https://github.com/jorgeUnas/Sales-Funnel-for-Metrocar/blob/main/ERD.jpeg" height="400"> 
 </p>
-Figure 1. Entity Relational Diagram
+<p align= "center">Figure 1. Entity Relational Diagram</p>
 
 My strategy to address the company's request was to reduce the amount of data by aggregating the dataset at the user-level granularity using SQL, thereby facilitating the visualization of the sales funnel in Tableau. Reducing the size of big datasets sacrifices granularity, but in some cases, there is no need for a high level of detail to drive data decisions, as is the case here, where grouped data can provide enough information to track sales effectively.
 The user funnel includes the following stages:
@@ -48,7 +48,8 @@ The query used to aggregate the dataset at the user-level granularity is attache
 <p align= "center">
 <img src="https://github.com/jorgeUnas/Sales-Funnel-for-Metrocar/blob/main/Reduced%20Dataset.png" height="500"> 
 </p>
-Figure 1. Reduced dataset
+<p align= "center">Figure 2. Reduced dataset</p>
+
 
 With this reduced dataset, I have created a Tableau dashboard that can be found here. Paired bar plots were implemented to obtain the funnel shape using the count (COUNT()) of users or rides to construct each type of funnel. In addition to the funnel, I have included treemaps to showcase the number of users or rides by platform and age range. Finally, I present an individual bar plot to analyze the hours with the highest number of ride requests, with the intention of establishing a simple price-surging strategy.
 
@@ -58,7 +59,8 @@ This funnel describes the user journey from the moment they download the app to 
 <p align= "center">
 <img src="https://github.com/jorgeUnas/Sales-Funnel-for-Metrocar/blob/main/users%20funnel.png" height="400"> 
 </p>
-Figure 3. User Funnel
+<p align= "center">Figure 3. User Funnel</p>
+
 
 The biggest drop-offs in this funnel occur between download and sign-up and between ride request and ride completed. The first drop-off of users is practically unavoidable because a considerable number of people download the app just to take a look at the layout. Some of them are current users of other similar apps like Uber or Lyft and simply want to compare how user-friendly this app is compared to others. Additionally, some people install the app in emergency situations but end up using other transportation means, such as taxis. This drop-off could be slightly reduced by modifying the landing page of the app, perhaps by utilizing A/B testing to launch appealing features like banners or pop-ups with promotions and discounts.
 On the other hand, the drop-off between ride request and ride completed represents users who requested at least one ride, canceled it, and never completed a ride. These users were not engaged with the app, and some of them may have uninstalled it. This drop-off can be correlated with several factors, such as long waiting times for users, a lack of drivers at specific times, drivers rejecting rides, or bugs in the app.
@@ -67,7 +69,8 @@ According to the treemap (FIgure 4), most of Metrocar's users use iOS devices to
 <p align= "center">
 <img src="https://github.com/jorgeUnas/Sales-Funnel-for-Metrocar/blob/main/users%20by%20platform%20and%20age.png" height="200"> 
 </p>
-Figure 4. Users by platform and age range
+<p align= "center">Figure 4. Users by platform and age range</p>
+
 
 ### Ride Funnel
 
@@ -76,7 +79,7 @@ I found it interesting to design a special funnel that describes the trajectory 
 <p align= "center">
 <img src="https://github.com/jorgeUnas/Sales-Funnel-for-Metrocar/blob/main/Rides%20Funnel.png" height="400"> 
 </p>
-Figure 5. Rides Funnel
+<p align= "center">Figure 5. Rides Funnel</p>
 
 Looking at the rides funnel, we discovered that the biggest drop-off occurred between rides requested and rides accepted. Two main factors can lead drivers to cancel rides frequently: low-fare rides and traffic congestion. The second factor does not depend on Metrocar, but the first can be reduced using a price-surging strategy. This strategy consists of increasing the price of the rides temporarily during times of high demand. In the Figure 6, we can see that the hours with the most ride requests were between 8 and 9 and between 16 and 17. This gives us an idea of the best hours to increase the prices and stimulate the ride-sharing options included in the app. Evidently, more sophisticated machine learning
 models could address this goal in a more dynamic way, but this is a good starting point to increase sales and encourage drivers to complete more rides.
@@ -84,14 +87,15 @@ models could address this goal in a more dynamic way, but this is a good startin
 <p align= "center">
 <img src="https://github.com/jorgeUnas/Sales-Funnel-for-Metrocar/blob/main/Number%20of%20rides%20per%20hour.png" height="400"> 
 </p>
-Figure 6. Number of rides per hour
+<p align= "center">Figure 6. Number of rides per hour</p>
 
 When it comes to the platforms and age ranges (Figure 7), I observed a similar behavior in the number of rides compared to the behavior in the number of users in Figure 4. Most of the rides are requested on iOS devices by users between 35 and 44 years old. Consequently, they are our target group, and I recommend keeping them engaged with excellent customer service and creating engaging content such as promotions or ride suggestions. This recommendation can be extended to users between 25 and 34 years old because this is the next group with the highest number of rides, and we could stimulate this group to use our app more frequently, thereby increasing our revenue as a result.
 
 <p align= "center">
 <img src="https://github.com/jorgeUnas/Sales-Funnel-for-Metrocar/blob/main/Rides%20by%20platform%20and%20age.png" height="200"> 
 </p>
-Figure 7. Rides by platform and age range
+<p align= "center">Figure 7. Rides by platform and age range<p align= "center">
+
 
 ## Recommendations
 ● I recommend using A/B testing to implement modifications on the landing page, such as launching banners or pop-ups with promotions and discounts, in order to increase our user conversion rate.
