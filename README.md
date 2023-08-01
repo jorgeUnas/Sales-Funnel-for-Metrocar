@@ -1,9 +1,12 @@
 # Sales Funnel for Metrocar
 
-Summary
-SALES FUNNELS FOR METROCARD
-The user ride activity data from Metrocar (a ride-sharing app similar to Uber) was manipulated and organized to obtain the sales funnel for users who downloaded the app during 2021. I determined the customer stages that did not perform as expected and provided some recommendations to improve them. The data was manipulated using SQL, and the funnel was designed in Tableau. The final Tableau dashboard can be easily interpreted by any stakeholder to make data-driven decisions.
-Context
+<p align= "center">
+<img src="https://github.com/jorgeUnas/Sales-Funnel-for-Metrocar/blob/main/logo.jpg" height="200"> 
+</p>
+
+## Summary
+The user ride activity data from Metrocar (a ride-sharing app similar to Uber) was manipulated and organized to obtain the sales funnel for users who downloaded the app in 2021. I determined the customer stages that did not perform as expected and provided some recommendations to improve them. The data was manipulated using SQL, and the funnel was designed in Tableau. The final Tableau dashboard can be easily interpreted by any stakeholder to make data-driven decisions.
+## Context
 Video presentation
 Metrocar is interested in analysing its sales during 2021 to increase its revenue and user engagement for the upcoming years. Part of its business strategy is to identify the most frequent consumers, the platforms they use the most, and establish a dynamic pricing model to stimulate drivers to get on the road and increase their earnings. Additionally, I have created two sales funnels to identify the stages with the most drop-offs and can suggest recommendations to stakeholders.
 The data collected is condensed in the ERD of Figure 1. There are no missing values in this dataset, and each column contains the correct data type. Null values correspond to missing timestamps, for example, drop-off timestamps for rides that were not completed.
